@@ -1,0 +1,10 @@
+uuid: 5933ec30-f801-4459-9e57-6667fe500801
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bY5cSx0sNkSSZH7ZkVozNNigdO5ABsOoow-WuyuTYuQ
+id: modal_image
+label: 'Modal Image'
+revision: 1
+description: 'Insert image that pops open with title and description.'

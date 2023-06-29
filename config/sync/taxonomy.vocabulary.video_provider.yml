@@ -1,0 +1,10 @@
+uuid: 33c5c04e-01a7-4b83-89ff-2f8bfd37704b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MKTTEuzcAS6x-ILG7IClTZj7z3X04PyTcRjMs1ViDvw
+name: 'Video Provider'
+vid: video_provider
+description: 'Select video providers for output'
+weight: 0

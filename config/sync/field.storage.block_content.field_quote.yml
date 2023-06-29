@@ -1,0 +1,21 @@
+uuid: cad3da38-f130-47d1-9606-4940b7f7ffef
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: bF5UUJ3jYuV5KkZqf8ZLccoKtfIpXujrqq5M31aVEYk
+id: block_content.field_quote
+field_name: field_quote
+entity_type: block_content
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

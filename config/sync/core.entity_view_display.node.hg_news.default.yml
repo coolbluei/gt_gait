@@ -1,0 +1,217 @@
+uuid: a8ebc3e2-79c4-4c3a-b8d2-f2f41d706502
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.hg_news.body
+    - field.field.node.hg_news.field_hg_categories
+    - field.field.node.hg_news.field_hg_contact
+    - field.field.node.hg_news.field_hg_core_research_areas
+    - field.field.node.hg_news.field_hg_dateline
+    - field.field.node.hg_news.field_hg_email
+    - field.field.node.hg_news.field_hg_id
+    - field.field.node.hg_news.field_hg_images
+    - field.field.node.hg_news.field_hg_importer
+    - field.field.node.hg_news.field_hg_keywords
+    - field.field.node.hg_news.field_hg_location
+    - field.field.node.hg_news.field_hg_news_room_topics
+    - field.field.node.hg_news.field_hg_related_files
+    - field.field.node.hg_news.field_hg_related_links
+    - field.field.node.hg_news.field_hg_sidebar
+    - field.field.node.hg_news.field_hg_source_updated
+    - field.field.node.hg_news.field_hg_subtitle
+    - field.field.node.hg_news.field_hg_summary
+    - field.field.node.hg_news.field_hg_summary_sentence
+    - field.field.node.hg_news.field_hg_youtube_video
+    - node.type.hg_news
+  module:
+    - datetime
+    - file
+    - image
+    - link
+    - text
+    - user
+    - video_embed_field
+_core:
+  default_config_hash: rUhL5yjW7GQtzf32SWw3UCRV-Aj-7qtMo56D5kz8UFw
+id: node.hg_news.default
+targetEntityType: node
+bundle: hg_news
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_hg_categories:
+    weight: 16
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_hg_contact:
+    weight: 7
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_hg_core_research_areas:
+    weight: 17
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_hg_dateline:
+    weight: 5
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_hg_email:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_hg_id:
+    weight: 18
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_hg_images:
+    weight: 13
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_hg_importer:
+    weight: 12
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_hg_keywords:
+    type: entity_reference_label
+    weight: 14
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_hg_location:
+    weight: 11
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_hg_news_room_topics:
+    weight: 15
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_hg_related_files:
+    weight: 9
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_hg_related_links:
+    weight: 8
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_hg_sidebar:
+    weight: 10
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_hg_source_updated:
+    weight: 19
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    type: timestamp
+    region: content
+  field_hg_subtitle:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_hg_summary:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_hg_summary_sentence:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_hg_youtube_video:
+    weight: 14
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

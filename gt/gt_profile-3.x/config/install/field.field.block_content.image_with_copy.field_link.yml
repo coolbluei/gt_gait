@@ -1,0 +1,25 @@
+uuid: 17f677dd-0ca9-46e5-ac3e-2a3811396cc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.image_with_copy
+    - field.storage.block_content.field_link
+  module:
+    - link
+_core:
+  default_config_hash: pX6nk_smgSxg5Ehmj59_kwyU7_VMwduy7e-4sboBGvg
+id: block_content.image_with_copy.field_link
+field_name: field_link
+entity_type: block_content
+bundle: image_with_copy
+label: Link
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

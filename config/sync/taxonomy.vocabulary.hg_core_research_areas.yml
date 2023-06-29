@@ -1,0 +1,13 @@
+uuid: 214d0ef9-db5a-450b-bdfb-41e4efeb10dc
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+_core:
+  default_config_hash: hR3xOhvDUOiiJORGA11e0Yl1E2JyUbzI2URa0tfgLqw
+name: 'Core research areas'
+vid: hg_core_research_areas
+description: 'Core research areas from Mercury'
+weight: 0

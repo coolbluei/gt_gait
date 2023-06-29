@@ -1,0 +1,40 @@
+uuid: 1e102e2a-7910-4c24-ba3b-97bfca9aaf76
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.hg_video.body
+    - field.field.node.hg_video.field_hg_id
+    - field.field.node.hg_video.field_hg_images
+    - field.field.node.hg_video.field_hg_importer
+    - field.field.node.hg_video.field_hg_source_updated
+    - field.field.node.hg_video.field_hg_youtube_id
+    - node.type.hg_video
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 2HsrPxwVpMtmORq5nJ3GGgMbjK7LbwAFczU2VPwaM1o
+id: node.hg_video.teaser
+targetEntityType: node
+bundle: hg_video
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_hg_id: true
+  field_hg_images: true
+  field_hg_importer: true
+  field_hg_source_updated: true
+  field_hg_youtube_id: true

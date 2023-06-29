@@ -1,0 +1,12 @@
+uuid: 8e733297-1e4d-4f38-ad7d-5d64177ec26f
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+name: Categories
+vid: hg_categories
+description: 'News categories from Mercury'
+hierarchy: 0
+weight: 0

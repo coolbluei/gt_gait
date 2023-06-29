@@ -1,0 +1,23 @@
+uuid: b367b93a-5815-4472-8ffe-9813ea546f63
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: a9qtTWxiMqTfo9rzx98XvLreIMSEcw5uRTiowZWoCAk
+id: block_content.field_custom_color
+field_name: field_custom_color
+entity_type: block_content
+type: string
+settings:
+  max_length: 20
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

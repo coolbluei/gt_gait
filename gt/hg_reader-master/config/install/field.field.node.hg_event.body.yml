@@ -1,0 +1,24 @@
+uuid: b5e565f5-e9d2-4c1d-88f3-78bcddc2cef3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.hg_event
+  module:
+    - text
+_core:
+  default_config_hash: 9FNt88RzvJTcaPGmpF7Pp9zeTiWux49i8JV2Vt3Opt8
+id: node.hg_event.body
+field_name: body
+entity_type: node
+bundle: hg_event
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

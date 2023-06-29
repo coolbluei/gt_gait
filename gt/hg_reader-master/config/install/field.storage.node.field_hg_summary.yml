@@ -1,0 +1,24 @@
+uuid: d799bcf5-2b75-4dd8-9a04-2ab0e4fa75d3
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: qlEgPEU1rBItXZ_O4H8s6-SkeS59APavhpAn0NMgMF8
+id: node.field_hg_summary
+field_name: field_hg_summary
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

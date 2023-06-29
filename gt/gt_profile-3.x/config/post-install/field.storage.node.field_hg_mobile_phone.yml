@@ -1,0 +1,24 @@
+uuid: 20c1d43a-d642-41ae-bfd4-65d82b4f213a
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+  module:
+    - node
+    - telephone
+_core:
+  default_config_hash: KLS66vCuLT5CeSMDsxgO90UMhooKVt7DUkOi3OhyPiM
+id: node.field_hg_mobile_phone
+field_name: field_hg_mobile_phone
+entity_type: node
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

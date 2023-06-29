@@ -1,0 +1,20 @@
+uuid: db9a8b39-d333-46ec-b3eb-1e1d64117e45
+langcode: en
+status: true
+dependencies:
+  module:
+    - gt_tools
+  theme:
+    - stable
+id: stable_footer_contact
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: gt_footer_contact_block
+settings:
+  id: gt_footer_contact_block
+  label: 'GT gold footer: address, contact and map (required)'
+  label_display: '0'
+  provider: gt_tools
+visibility: {  }

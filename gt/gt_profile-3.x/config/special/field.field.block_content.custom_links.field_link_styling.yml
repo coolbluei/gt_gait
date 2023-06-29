@@ -1,0 +1,23 @@
+uuid: cfa1ff2e-e9fd-4407-8780-10ba96a4025c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.custom_links
+    - field.storage.block_content.field_link_styling
+  module:
+    - options
+id: block_content.custom_links.field_link_styling
+field_name: field_link_styling
+entity_type: block_content
+bundle: custom_links
+label: 'Link styling'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'nav nav-pills'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

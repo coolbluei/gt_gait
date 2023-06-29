@@ -1,0 +1,24 @@
+uuid: 255b215d-6e4c-49fb-8479-51670cd316b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.hg_external_news
+_core:
+  default_config_hash: ZTnXdNElkUw6tXRe-aSRyW5Be-xMolrdyiqBDCQ6dPw
+id: node.hg_external_news.promote
+field_name: promote
+entity_type: node
+bundle: hg_external_news
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

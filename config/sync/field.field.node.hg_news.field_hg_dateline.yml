@@ -1,0 +1,26 @@
+uuid: a1102c49-62e0-493a-b09a-df1cb2b6cd8a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hg_dateline
+    - node.type.hg_news
+  module:
+    - datetime
+_core:
+  default_config_hash: HzbCgA_dTEm78xq91PqFkqG_fse9was9U8D13RMuF1c
+id: node.hg_news.field_hg_dateline
+field_name: field_hg_dateline
+entity_type: node
+bundle: hg_news
+label: Dateline
+description: 'The date which will appear on your story, similar to how dates work for press releases.<br><strong>Do not change after publishing</strong><br>The web address (URL) for a news story is created using the title, but also the dateline. To avoid broken links and SEO problems, we recommend that you <strong>do not change the dateline after you have published a story</strong>.'
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

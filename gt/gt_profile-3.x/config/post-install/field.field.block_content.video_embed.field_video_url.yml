@@ -1,0 +1,25 @@
+uuid: 56c36715-929c-4c55-b587-18d8bb6b9f18
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.video_embed
+    - field.storage.block_content.field_video_url
+  module:
+    - video_embed_field
+id: block_content.video_embed.field_video_url
+field_name: field_video_url
+entity_type: block_content
+bundle: video_embed
+label: 'Video URL'
+description: 'Video Embed field creates a simple field type that allows you to embed videos from YouTube and Vimeo and show their thumbnail previews simply by entering the video''s url.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: vimeo
+    youtube: youtube
+    youtube_playlist: '0'
+field_type: video_embed_field

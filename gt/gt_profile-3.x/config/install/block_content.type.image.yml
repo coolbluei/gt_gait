@@ -1,0 +1,10 @@
+uuid: b500ae0f-6a42-4eac-83cc-fbb75711a0d1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: G-f4nLOwRsaiLKbqy1WB2RZeZaSzGeE66gaK8r4FmB0
+id: image
+label: Image
+revision: 1
+description: 'Upload an and link an Image.'

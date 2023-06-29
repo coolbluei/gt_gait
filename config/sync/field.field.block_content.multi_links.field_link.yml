@@ -1,0 +1,25 @@
+uuid: 4e2b08da-eec5-4e0f-91d4-790b9bab4588
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.multi_links
+    - field.storage.block_content.field_link
+  module:
+    - link
+_core:
+  default_config_hash: t1yZ_VMsWQxmXHd-e_Zvdbmv631b4f4we6HOg31stp4
+id: block_content.multi_links.field_link
+field_name: field_link
+entity_type: block_content
+bundle: multi_links
+label: Link
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

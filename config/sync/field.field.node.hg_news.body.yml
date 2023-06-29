@@ -1,0 +1,25 @@
+uuid: 035ba2c4-da6e-4b6a-a255-239dfad30167
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.hg_news
+  module:
+    - text
+_core:
+  default_config_hash: cdM2lzPFPCHWiRJy34y1PAXzfL3xOEkrmbeD2MsnsIU
+id: node.hg_news.body
+field_name: body
+entity_type: node
+bundle: hg_news
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

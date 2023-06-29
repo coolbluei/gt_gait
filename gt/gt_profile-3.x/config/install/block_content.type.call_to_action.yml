@@ -1,0 +1,8 @@
+uuid: fa284d1c-ebd7-460c-bc4f-14fa1a290f5b
+langcode: en
+status: true
+dependencies: {  }
+id: call_to_action
+label: 'Call to Action'
+revision: 1
+description: 'Add an image (aligned left or right), copy, and link.'

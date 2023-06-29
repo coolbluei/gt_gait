@@ -1,0 +1,23 @@
+uuid: 70b9fffe-426b-4147-98dd-908fc647bea0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.image_with_copy
+    - field.storage.block_content.field_image_style
+  module:
+    - options
+id: block_content.image_with_copy.field_image_style
+field_name: field_image_style
+entity_type: block_content
+bundle: image_with_copy
+label: 'Image Style'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: original
+default_value_callback: ''
+settings: {  }
+field_type: list_string

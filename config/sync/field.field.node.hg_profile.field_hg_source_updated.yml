@@ -1,0 +1,21 @@
+uuid: cc414354-e716-4c02-a428-eb1b6f3777c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hg_source_updated
+    - node.type.hg_profile
+_core:
+  default_config_hash: qB6ADJiyAardSdrdR_tDPbldKIHE1asuoV17uCmg8ck
+id: node.hg_profile.field_hg_source_updated
+field_name: field_hg_source_updated
+entity_type: node
+bundle: hg_profile
+label: 'Source updated'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

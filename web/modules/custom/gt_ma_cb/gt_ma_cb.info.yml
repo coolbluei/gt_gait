@@ -1,0 +1,5 @@
+name: 'GT Migration Assistance'
+type: module
+description: 'GT Migration scripts'
+core_version_requirement: ^8.8.0 || ^9.0
+package: 'Custom'

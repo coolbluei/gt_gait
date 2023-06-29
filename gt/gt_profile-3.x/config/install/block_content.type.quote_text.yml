@@ -1,0 +1,10 @@
+uuid: ce31c69f-a4fc-4835-b6c7-ce6d153b4037
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tO-4FKUbRTSWCY50nKAUWDqthdIlBKYOpg24vuHTzu8
+id: quote_text
+label: 'Quote Text'
+revision: 1
+description: 'Add  a paragraph wrapped in quotes.'

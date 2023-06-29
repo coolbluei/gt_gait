@@ -1,0 +1,10 @@
+uuid: 5dd4676c-75d6-45df-9968-6e886c7aa682
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zO4Tf_JLpZmcrsD3CrlUerhCJRv5-Eb2Y57aiEvQmcM
+id: custom_links
+label: 'Custom Links'
+revision: 1
+description: 'Add buttons with multiple styles'

@@ -1,0 +1,16 @@
+uuid: c2268a52-9baf-42be-884a-260d20e49d8c
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+_core:
+  default_config_hash: 81d4Lsikbqyf2kIVXAlY0TObW7qBmY5lTdKegMddYfI
+name: 'Mercury news'
+type: hg_news
+description: 'A factual, prose story about a person, place or event that can be shared with the media and answers these five questions: who, what, when, where, why and how. A news story is written in the inverted-pyramid style, giving the most important information first and additional details later. One of the two <strong>main types of content in Mercury</strong> (along with events).'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

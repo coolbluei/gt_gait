@@ -1,0 +1,16 @@
+uuid: 1fd125e6-2204-4745-944b-f40b0ffc0b2d
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+_core:
+  default_config_hash: rwYYa3F8ZBOio8sDpo4kYta8_xHN2y-nLZ5jFAHagZk
+name: 'Mercury image'
+type: hg_image
+description: 'A photo or graphic file, uploaded so it can be attached to other content. Images are the <strong>main type of media in Mercury</strong> that accompany News stories and Events.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

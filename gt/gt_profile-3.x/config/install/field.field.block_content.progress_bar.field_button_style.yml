@@ -1,0 +1,33 @@
+uuid: 461550b6-707b-4b88-9675-63df4c40f73c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.progress_bar
+    - field.storage.block_content.field_button_style
+    - taxonomy.vocabulary.gt_colors
+  content:
+    - 'taxonomy_term:gt_colors:4f064a34-5978-4353-9c23-36be7b3c52dc'
+id: block_content.progress_bar.field_button_style
+field_name: field_button_style
+entity_type: block_content
+bundle: progress_bar
+label: Color
+description: 'Select from a per-designed color palette.'
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 4f064a34-5978-4353-9c23-36be7b3c52dc
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      gt_colors: gt_colors
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

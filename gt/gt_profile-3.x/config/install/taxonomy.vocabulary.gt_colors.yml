@@ -1,0 +1,8 @@
+uuid: c31095da-260b-45f9-9d6a-be2a014588f1
+langcode: en
+status: true
+dependencies: {  }
+name: 'GT Colors'
+vid: gt_colors
+description: 'A list of offical Georgia Tech colors'
+weight: 0

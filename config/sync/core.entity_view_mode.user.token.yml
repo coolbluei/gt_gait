@@ -1,0 +1,12 @@
+uuid: bcb4ce5c-3dc7-4364-b21f-e7a112ea133b
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: GAgtADdvPcbiOnwNN7Q8JZ8wJvegsu9DSMCrxf9t0ug
+id: user.token
+label: Token
+targetEntityType: user
+cache: true

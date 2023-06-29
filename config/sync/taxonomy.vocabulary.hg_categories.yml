@@ -1,0 +1,13 @@
+uuid: 8e733297-1e4d-4f38-ad7d-5d64177ec26f
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+_core:
+  default_config_hash: HDs184Fdi_eJpU1b3yY4MTZ-3xNgk2mtDZsP37Vds8I
+name: Categories
+vid: hg_categories
+description: 'News categories from Mercury'
+weight: 0

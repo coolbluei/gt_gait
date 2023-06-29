@@ -1,0 +1,23 @@
+uuid: 38a58394-6347-4b15-9025-d9cf085f2b2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hg_summary
+    - node.type.hg_news
+  module:
+    - text
+_core:
+  default_config_hash: zBnYmp-k9CbSDgZkLaRJnsR8NOixJNSuMdqvNkI0Wnc
+id: node.hg_news.field_hg_summary
+field_name: field_hg_summary
+entity_type: node
+bundle: hg_news
+label: Summary
+description: 'A short, one paragraph summary for your story. Mercury consumers may wish to use this field as a teaser in news lists.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

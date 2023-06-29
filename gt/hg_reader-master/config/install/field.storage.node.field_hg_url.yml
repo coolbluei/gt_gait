@@ -1,0 +1,22 @@
+uuid: 3078aaa2-c635-4a81-9719-898943858c8d
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+  module:
+    - link
+    - node
+id: node.field_hg_url
+field_name: field_hg_url
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

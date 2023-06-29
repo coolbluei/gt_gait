@@ -1,0 +1,12 @@
+uuid: 622fbaf0-e828-4fe8-b5b1-756a5d70bcae
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+name: 'News room topics'
+vid: hg_news_room_topics
+description: 'Topics pertaining to the top-level newsroom (www.news.gatech.edu)'
+hierarchy: 0
+weight: 0

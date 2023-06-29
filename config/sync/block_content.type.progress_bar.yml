@@ -1,0 +1,10 @@
+uuid: ee21b6ca-37c7-4916-a015-d4c9b2ad8e20
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zsyaSiNHaN2f6LnTfKdJEfsfRgAqur25wpzDd3LAYkc
+id: progress_bar
+label: 'Progress Bar'
+revision: 1
+description: 'Add a custom progress bar'

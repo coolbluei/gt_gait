@@ -1,0 +1,30 @@
+uuid: 3aed9d28-4bbe-4512-80a8-87165a70670c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.multi_links
+    - field.field.block_content.multi_links.field_link
+  module:
+    - field_formatter_class
+    - link
+id: block_content.multi_links.default
+targetEntityType: block_content
+bundle: multi_links
+mode: default
+content:
+  field_link:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings:
+      field_formatter_class:
+        class: btn-primary
+    type: link
+    region: content
+hidden: {  }

@@ -1,0 +1,33 @@
+uuid: 770be6fc-f75d-44de-865a-886ae29d20aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_background_color
+    - taxonomy.vocabulary.gt_colors
+    - taxonomy.vocabulary.style
+  content:
+    - 'taxonomy_term:gt_colors:b46c406a-00b6-403b-a251-3ca3521708cb'
+id: taxonomy_term.style.field_background_color
+field_name: field_background_color
+entity_type: taxonomy_term
+bundle: style
+label: 'Background color'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: b46c406a-00b6-403b-a251-3ca3521708cb
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      gt_colors: gt_colors
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

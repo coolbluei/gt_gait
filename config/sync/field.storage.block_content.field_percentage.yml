@@ -1,0 +1,20 @@
+uuid: a10e5ff5-0790-42e7-9a7a-effcd99dd066
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_percentage
+field_name: field_percentage
+entity_type: block_content
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

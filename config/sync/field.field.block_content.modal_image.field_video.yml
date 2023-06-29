@@ -1,0 +1,21 @@
+uuid: 0a96378f-af07-4906-a9d7-a591f7dd19a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.modal_image
+    - field.storage.block_content.field_video
+_core:
+  default_config_hash: BQM6gxc4Gu8SVV1etSS6vk2yvYpMbvELIb1aBWn0nOc
+id: block_content.modal_image.field_video
+field_name: field_video
+entity_type: block_content
+bundle: modal_image
+label: 'Video ID#'
+description: 'Only add ID number at the end of the URL: example: zfDiHitBkY0'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

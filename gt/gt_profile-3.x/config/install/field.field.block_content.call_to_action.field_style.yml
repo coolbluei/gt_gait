@@ -1,0 +1,33 @@
+uuid: b1f30be1-1cfe-4a05-adab-c9500b282256
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.call_to_action
+    - field.storage.block_content.field_style
+    - taxonomy.vocabulary.style
+_core:
+  default_config_hash: tPuB63ENG3alqPRDdgw-W9okT3AsEsUg3gP6KvEpjrc
+id: block_content.call_to_action.field_style
+field_name: field_style
+entity_type: block_content
+bundle: call_to_action
+label: Style
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    target_uuid: 51ea0f60-d816-44ea-96b7-63843347fd91
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      style: style
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

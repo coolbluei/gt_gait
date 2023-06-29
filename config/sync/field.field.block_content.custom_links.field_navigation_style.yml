@@ -1,0 +1,31 @@
+uuid: 500f52ef-9473-4ad1-a8ee-b99ea3312664
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.custom_links
+    - field.storage.block_content.field_navigation_style
+    - taxonomy.vocabulary.links
+_core:
+  default_config_hash: zghsmHGGLo7lyDY2HNsEOnKfMTPKht9aWWQiDNWzA_k
+id: block_content.custom_links.field_navigation_style
+field_name: field_navigation_style
+entity_type: block_content
+bundle: custom_links
+label: 'Navigation style'
+description: 'Add navigation style to links'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      links: links
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

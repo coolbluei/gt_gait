@@ -1,0 +1,23 @@
+uuid: 8af24505-22cb-4f41-9f74-ab46f988828f
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+  module:
+    - node
+_core:
+  default_config_hash: d6_f_SEgj48A7YRULaLiZ9QQTsC2AWli-Zh8yC2nNoM
+id: node.field_hg_email
+field_name: field_hg_email
+entity_type: node
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

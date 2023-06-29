@@ -1,0 +1,52 @@
+uuid: 639b9b7e-ba8e-4867-a183-ae727dd51983
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.progress_bar
+    - field.field.block_content.progress_bar.field_button_style
+    - field.field.block_content.progress_bar.field_custom_color
+    - field.field.block_content.progress_bar.field_height
+    - field.field.block_content.progress_bar.field_percentage
+id: block_content.progress_bar.default
+targetEntityType: block_content
+bundle: progress_bar
+mode: default
+content:
+  field_button_style:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_custom_color:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_height:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_percentage:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

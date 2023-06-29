@@ -1,0 +1,25 @@
+uuid: 7c146db0-f030-446a-b8ad-9f228b5975ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hg_article_url
+    - node.type.hg_external_news
+  module:
+    - link
+_core:
+  default_config_hash: 8vZws5j5ru76IrcJ_a9Q7qzqxnzpYy57WXb2smZfrvg
+id: node.hg_external_news.field_hg_article_url
+field_name: field_hg_article_url
+entity_type: node
+bundle: hg_external_news
+label: 'Article URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

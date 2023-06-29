@@ -1,0 +1,11 @@
+{
+  "package": {
+    "name": "gt/gt_installer",
+    "version": "v3.0.4",
+    "source": {
+      "url": "https://github.gatech.edu/ICWebTeam/gt_installer.git",
+      "type": "git",
+      "reference": "3.x"
+    }
+  }
+}

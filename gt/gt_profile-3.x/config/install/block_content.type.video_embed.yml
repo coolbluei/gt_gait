@@ -1,0 +1,10 @@
+uuid: 95520265-666f-4234-8567-6ea66442d2e7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SfpYob73JmMhXJ2DtW9r056wNb2W6fd_DZat4xTYSsY
+id: video_embed
+label: 'Video Embed'
+revision: 1
+description: "Add a YouTube or Vimeo video."

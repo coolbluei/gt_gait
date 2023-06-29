@@ -1,0 +1,27 @@
+uuid: e5a844d6-87bd-477e-a131-4e62b71a0bff
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.gt-footer-general
+  module:
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: wFI_9O2QMFk71AumUzmby3SJDSRSXYBaoc5gykMBa8s
+id: stable_footer_general
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:gt-footer-general'
+settings:
+  id: 'system_menu_block:gt-footer-general'
+  label: 'GT official links: general (required)'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

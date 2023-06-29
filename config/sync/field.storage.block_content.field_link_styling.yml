@@ -1,0 +1,33 @@
+uuid: bb8c51d2-916c-4f59-bb5d-992cda41e44f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_link_styling
+field_name: field_link_styling
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: nav
+      label: Horizontal
+    -
+      value: 'nav flex-column'
+      label: Vertical
+    -
+      value: 'nav nav-pills'
+      label: Button
+    -
+      value: 'nav nav-tabs'
+      label: Tabs
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

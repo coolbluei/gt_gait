@@ -1,0 +1,23 @@
+uuid: 3198bddd-5b34-4f0f-ac36-7404ec0ba111
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hg_contact
+    - node.type.hg_news
+  module:
+    - text
+_core:
+  default_config_hash: nKDe6cO0mdJcq7BlY3M8slijFWijAbEnQeSy7x2uuEM
+id: node.hg_news.field_hg_contact
+field_name: field_hg_contact
+entity_type: node
+bundle: hg_news
+label: Contact
+description: 'This field may be used if more extensive contact information than an email address is required for your story.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

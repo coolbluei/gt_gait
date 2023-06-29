@@ -1,0 +1,44 @@
+uuid: ba688b77-75e1-4166-8391-0a84f82b26ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.modal_image
+    - field.field.block_content.modal_image.field_image
+    - field.field.block_content.modal_image.field_quote
+    - field.field.block_content.modal_image.field_video_url
+    - image.style.thumbnail
+  module:
+    - image
+    - video_embed_field
+_core:
+  default_config_hash: iQgIpAoq8kT4QVYc4fwAv3bDEYvuJZcOCfnl64NWR88
+id: block_content.modal_image.default
+targetEntityType: block_content
+bundle: modal_image
+mode: default
+content:
+  field_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_quote:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_video_url:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: video_embed_field_textfield
+    region: content
+hidden:
+  info: true

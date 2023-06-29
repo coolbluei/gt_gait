@@ -1,0 +1,55 @@
+uuid: b630ae94-de9d-416a-8347-5c4499da49a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.progress_bar
+    - field.field.block_content.progress_bar.field_button_style
+    - field.field.block_content.progress_bar.field_custom_color
+    - field.field.block_content.progress_bar.field_height
+    - field.field.block_content.progress_bar.field_percentage
+  module:
+    - field_formatter_class
+id: block_content.progress_bar.default
+targetEntityType: block_content
+bundle: progress_bar
+mode: default
+content:
+  field_button_style:
+    type: entity_reference_entity_view
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link: false
+      view_mode: default
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+  field_custom_color:
+    type: string
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_height:
+    type: number_integer
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_percentage:
+    type: number_integer
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+hidden: {  }

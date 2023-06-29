@@ -1,0 +1,51 @@
+uuid: 1cbb9476-8a38-4fb0-adf5-60b3d9a57545
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.custom_links
+    - field.field.block_content.custom_links.field_button_style
+    - field.field.block_content.custom_links.field_link
+    - field.field.block_content.custom_links.field_link_styling
+  module:
+    - field_formatter_class
+    - link
+    - options
+id: block_content.custom_links.default
+targetEntityType: block_content
+bundle: custom_links
+mode: default
+content:
+  field_button_style:
+    type: entity_reference_entity_view
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link: false
+      view_mode: default
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+  field_link:
+    type: link
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      trim_length: null
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+  field_link_styling:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+hidden: {  }

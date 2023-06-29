@@ -1,0 +1,25 @@
+uuid: c2d38e44-699d-42ad-911f-76498fdbdc43
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.hg_boilerplate
+  module:
+    - text
+_core:
+  default_config_hash: PHVaiVHlUJYTler5z60JWqTXPujmnqYp1F-hlu9o8EE
+id: node.hg_boilerplate.body
+field_name: body
+entity_type: node
+bundle: hg_boilerplate
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,13 @@
+uuid: 532ffc33-a353-4bb0-bbcc-91f4299621a9
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+_core:
+  default_config_hash: 7a8KFGDuqzIc56f4K_dh9MkZ5yoBW1C13v5wKYro8uc
+name: Keywords
+vid: hg_keywords
+description: 'Free tagging terms from Mercury'
+weight: 0

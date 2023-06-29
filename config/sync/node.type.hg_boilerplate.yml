@@ -1,0 +1,16 @@
+uuid: 684adeba-2f32-4958-b4eb-ccc61379b9c3
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+_core:
+  default_config_hash: 9gOs4GTfoynRmWESRQhLvw5kaDjDKQWIibWo8I7wVRg
+name: 'Mercury boilerplate'
+type: hg_boilerplate
+description: 'A chunk of standard text that can be included in other pieces of content.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

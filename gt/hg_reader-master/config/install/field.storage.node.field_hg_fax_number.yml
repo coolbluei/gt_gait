@@ -1,0 +1,22 @@
+uuid: 387ec89a-66b0-46da-be32-ae8d37923152
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+  module:
+    - node
+    - telephone
+id: node.field_hg_fax_number
+field_name: field_hg_fax_number
+entity_type: node
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

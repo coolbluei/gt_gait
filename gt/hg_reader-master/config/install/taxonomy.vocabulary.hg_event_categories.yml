@@ -1,0 +1,12 @@
+uuid: b8fdf956-a562-4131-81aa-c1fd6bb6d86c
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+name: 'Event categories'
+vid: hg_event_categories
+description: 'Event categories from Mercury'
+hierarchy: 0
+weight: 0

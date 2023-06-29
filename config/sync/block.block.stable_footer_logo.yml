@@ -1,0 +1,20 @@
+uuid: 7c68ad80-84fe-48cc-8d7f-5b8110e5a52d
+langcode: en
+status: true
+dependencies:
+  module:
+    - gt_tools
+  theme:
+    - stable
+id: stable_footer_logo
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: gt_footer_logo_block
+settings:
+  id: gt_footer_logo_block
+  label: 'GT gold footer: logo (required)'
+  label_display: '0'
+  provider: gt_tools
+visibility: {  }

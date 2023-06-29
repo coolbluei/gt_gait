@@ -1,0 +1,27 @@
+uuid: 792195c0-8e33-4d94-818b-2f828dcc7804
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.gt-footer-03
+  module:
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: yb_F8-ysKlqDBmzFdSoqVVbDZf-svc1mGS_TbLKNEaA
+id: stable_footer_03
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:gt-footer-03'
+settings:
+  id: 'system_menu_block:gt-footer-03'
+  label: 'GT super footer: column 3 (optional)'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

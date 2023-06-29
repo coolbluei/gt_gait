@@ -1,0 +1,24 @@
+uuid: 8ccacc0f-1e46-43e6-9e60-25813cc6172a
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: XjS5Jf7OJQtTSntem8tYjnZHfMhegCOFUsSjm9J9yjU
+id: node.field_hg_location_url
+field_name: field_hg_location_url
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

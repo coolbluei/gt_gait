@@ -1,0 +1,25 @@
+uuid: 720d7f21-62bc-4186-8a90-b72b95de0002
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.modal_image
+    - field.storage.block_content.field_video_url
+  module:
+    - video_embed_field
+id: block_content.modal_image.field_video_url
+field_name: field_video_url
+entity_type: block_content
+bundle: modal_image
+label: 'Video URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: '0'
+    youtube: '0'
+    youtube_playlist: '0'
+field_type: video_embed_field

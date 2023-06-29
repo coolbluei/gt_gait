@@ -1,0 +1,25 @@
+uuid: b4d21b9e-f6d5-46c1-998b-c8b2b7142709
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.heading_title
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: lzUwIQCew8tA7Dz1XCoCoVvyafEU5sKEj3TgWMVZ3KQ
+id: block_content.heading_title.body
+field_name: body
+entity_type: block_content
+bundle: heading_title
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

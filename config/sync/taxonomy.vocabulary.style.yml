@@ -1,0 +1,10 @@
+uuid: 2e877af5-c967-4c8a-866f-e9e36b472cff
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: N7jL-sApvnRiz3CF_u33mE57zqah9LmezPx288O01LA
+name: Style
+vid: style
+description: 'Style sets for element forms'
+weight: 0

@@ -1,0 +1,13 @@
+uuid: c7b0f57d-82a6-47d0-b4be-53094414fd0d
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+_core:
+  default_config_hash: 6LSpBAAnyZgKpdjyyaFeOSfpyEdQ7ezJmeSzr1wPUFw
+name: 'Invited audience'
+vid: hg_invited_audience
+description: 'Invited audience(s) for Mercury events'
+weight: 0

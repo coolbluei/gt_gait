@@ -1,0 +1,22 @@
+uuid: 3fcf1b17-c2d6-40c2-b670-4155658d404a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gt
+_core:
+  default_config_hash: fEXmvhXSHFjanAL1m4kgAmvFRH43L4LYPcrt5DvpoPE
+id: gt_content
+theme: gt
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

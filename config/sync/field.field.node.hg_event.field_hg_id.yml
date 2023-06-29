@@ -1,0 +1,25 @@
+uuid: cc8db46a-c635-4451-8724-959110ad7526
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hg_id
+    - node.type.hg_event
+_core:
+  default_config_hash: d_ax7Av17nIzAE71hyLV9Rpt6i6KFHAZLuxLULV-wcs
+id: node.hg_event.field_hg_id
+field_name: field_hg_id
+entity_type: node
+bundle: hg_event
+label: 'Mercury ID'
+description: 'The ID of the corresponding item in Mercury.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

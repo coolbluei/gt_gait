@@ -1,0 +1,21 @@
+uuid: 5b8bb8a0-ae41-45b6-ab8d-e2bdd56118be
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: iaE9cx7ptnWpVKgq3Xd-kaUDEK9G3FWo5zveFtcka7Q
+id: taxonomy_term.field_text_background_color
+field_name: field_text_background_color
+entity_type: taxonomy_term
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: b06842aa-29ad-44c4-b83b-ff8ba5907205
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hg_city
+    - node.type.hg_profile
+_core:
+  default_config_hash: BLdml72rjTdDZDv34rVoJPnqA0T6sD5qogVYJLVdFxI
+id: node.hg_profile.field_hg_city
+field_name: field_hg_city
+entity_type: node
+bundle: hg_profile
+label: City
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

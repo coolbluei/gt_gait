@@ -1,0 +1,29 @@
+uuid: 9d414ad9-3d73-4baa-9649-3666396f03db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hg_related_files
+    - node.type.hg_news
+  module:
+    - file
+_core:
+  default_config_hash: sr6aKvMemTibokm0SUCS3tZ5CLHeG9W5Aq_jhq3y1Lc
+id: node.hg_news.field_hg_related_files
+field_name: field_hg_related_files
+entity_type: node
+bundle: hg_news
+label: 'Related files'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'hg_attachments/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'doc docx jpg jpeg gif odp ods odt pdf png pps ppt svg txt xls'
+  max_filesize: '2 MB'
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

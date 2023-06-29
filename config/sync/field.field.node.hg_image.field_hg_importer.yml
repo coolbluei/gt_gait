@@ -1,0 +1,25 @@
+uuid: a10c4fa2-4e26-44bd-88eb-38209dccd58a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hg_importer
+    - node.type.hg_image
+_core:
+  default_config_hash: '-3RH77Z2GKMqugNmr3C4qDVzKIAshPgyYZKVadMO6_s'
+id: node.hg_image.field_hg_importer
+field_name: field_hg_importer
+entity_type: node
+bundle: hg_image
+label: 'Associated importer'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

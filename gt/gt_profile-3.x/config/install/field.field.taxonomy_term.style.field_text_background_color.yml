@@ -1,0 +1,29 @@
+uuid: 149cbd31-b7db-47b4-8a8a-84ebc9b7764d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_text_background_color
+    - taxonomy.vocabulary.gt_colors
+    - taxonomy.vocabulary.style
+id: taxonomy_term.style.field_text_background_color
+field_name: field_text_background_color
+entity_type: taxonomy_term
+bundle: style
+label: 'Text background color'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      gt_colors: gt_colors
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

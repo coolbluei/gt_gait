@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains gt_migration_assistance.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function gt_ma_cb_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the gt_migration_assistance module.
+    case 'help.page.gt_migration_assistance':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('GT Migration') . '</p>';
+      return $output;
+
+    default:
+  }
+}

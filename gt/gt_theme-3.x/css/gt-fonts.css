@@ -1,0 +1,5 @@
+/* GT Official Fonts */
+:root {
+  --font-roboto: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --font-roboto-condensed: 'Roboto Condensed', sans-serif;
+}

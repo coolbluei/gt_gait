@@ -1,0 +1,33 @@
+uuid: a29b364d-d203-416d-a374-e81735eafaf3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.modal_image
+    - field.storage.block_content.field_video_provider
+    - taxonomy.vocabulary.video_provider
+  content:
+    - 'taxonomy_term:video_provider:2065bf17-042e-4f7b-8547-bc555040ea69'
+id: block_content.modal_image.field_video_provider
+field_name: field_video_provider
+entity_type: block_content
+bundle: modal_image
+label: 'Video Provider'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 2065bf17-042e-4f7b-8547-bc555040ea69
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      video_provider: video_provider
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

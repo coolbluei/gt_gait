@@ -1,0 +1,16 @@
+uuid: 8d85f3dc-33ed-4f5b-92a1-f8d236dd9e11
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+_core:
+  default_config_hash: I8O9TAQEhSAvm5X0uqGBIpuiRL9jS8q4ofSSAz_MHGQ
+name: 'Mercury external news'
+type: hg_external_news
+description: 'Used to post media references from sources outside of Georgia Tech. The Mercury Reader module will transform its title to link to the original article.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

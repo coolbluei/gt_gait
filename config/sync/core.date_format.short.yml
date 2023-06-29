@@ -1,0 +1,10 @@
+uuid: 8143829d-0946-4919-83cb-176e256e5914
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KAxiGov4nrT7z5Eft0KShXthHRO4nz4s4mm9AZrW0rE
+id: short
+label: 'Default short date'
+locked: false
+pattern: 'm/d/Y - H:i'

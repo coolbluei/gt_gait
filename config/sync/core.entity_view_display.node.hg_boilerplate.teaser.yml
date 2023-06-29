@@ -1,0 +1,36 @@
+uuid: b7c47c2a-0446-4813-a0dd-cf09ea5e657f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.hg_boilerplate.body
+    - field.field.node.hg_boilerplate.field_hg_id
+    - field.field.node.hg_boilerplate.field_hg_importer
+    - field.field.node.hg_boilerplate.field_hg_source_updated
+    - node.type.hg_boilerplate
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: U_INti8ouaQkD65JbwbU1VoAzUBMxHF14o2qVE2YwOQ
+id: node.hg_boilerplate.teaser
+targetEntityType: node
+bundle: hg_boilerplate
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_hg_id: true
+  field_hg_importer: true
+  field_hg_source_updated: true

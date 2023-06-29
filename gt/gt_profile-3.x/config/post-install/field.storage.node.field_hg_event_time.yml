@@ -1,0 +1,25 @@
+uuid: 4a3d2a35-4fc7-4810-a1ba-c50dbfbcbb49
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+  module:
+    - datetime_range
+    - node
+_core:
+  default_config_hash: 5I1TaxzvL_kS4afYB_Bn7gCozL7szSAeTBReYd1IJ80
+id: node.field_hg_event_time
+field_name: field_hg_event_time
+entity_type: node
+type: daterange
+settings:
+  datetime_type: datetime
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

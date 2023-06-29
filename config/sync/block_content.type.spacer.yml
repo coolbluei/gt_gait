@@ -1,0 +1,10 @@
+uuid: 720c62b0-a54a-4d5e-bdcf-b52e5dd80dd0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LBtZl5ji1yT-mo--Xvud0WQAldXXzKEUxFahbKfHdCk
+id: spacer
+label: Spacer
+revision: 0
+description: 'Add a space between content.'

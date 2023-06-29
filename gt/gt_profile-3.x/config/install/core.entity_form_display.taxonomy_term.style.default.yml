@@ -1,0 +1,77 @@
+uuid: abdd5e42-7ee4-45ac-98e4-8266bd259a50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.style.field_background_color
+    - field.field.taxonomy_term.style.field_button_color
+    - field.field.taxonomy_term.style.field_text_background_color
+    - field.field.taxonomy_term.style.field_text_color
+    - taxonomy.vocabulary.style
+  module:
+    - path
+    - text
+id: taxonomy_term.style.default
+targetEntityType: taxonomy_term
+bundle: style
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 6
+    region: content
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_background_color:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_button_color:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_text_background_color:
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_text_color:
+    weight: 3
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

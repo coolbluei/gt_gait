@@ -1,0 +1,35 @@
+uuid: c91b6053-659e-4547-bd0e-1460690decd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.custom_links
+    - field.storage.block_content.field_button_style
+    - taxonomy.vocabulary.gt_colors
+  content:
+    - 'taxonomy_term:gt_colors:4f064a34-5978-4353-9c23-36be7b3c52dc'
+_core:
+  default_config_hash: GB40dexz4KPzuxMF2GeZ4ExN5Fzsd0iiqxu2xW4tpuA
+id: block_content.custom_links.field_button_style
+field_name: field_button_style
+entity_type: block_content
+bundle: custom_links
+label: 'Color style'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 4f064a34-5978-4353-9c23-36be7b3c52dc
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      gt_colors: gt_colors
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

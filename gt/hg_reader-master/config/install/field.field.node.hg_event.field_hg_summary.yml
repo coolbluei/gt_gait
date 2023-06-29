@@ -1,0 +1,23 @@
+uuid: 194fdb0d-d220-4da2-9627-446720ab1ea1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hg_summary
+    - node.type.hg_event
+  module:
+    - text
+_core:
+  default_config_hash: Oi7M_rRqbfq8RNXTFoO7Yoko80UGQ6WkTceFZPGPTz4
+id: node.hg_event.field_hg_summary
+field_name: field_hg_summary
+entity_type: node
+bundle: hg_event
+label: Summary
+description: 'Enter a short (i.e. one paragraph) summary of this event.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

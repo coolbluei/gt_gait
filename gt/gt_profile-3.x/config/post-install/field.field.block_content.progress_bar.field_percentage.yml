@@ -1,0 +1,25 @@
+uuid: c5c0a050-78ca-45a7-8331-620e792c38cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.progress_bar
+    - field.storage.block_content.field_percentage
+id: block_content.progress_bar.field_percentage
+field_name: field_percentage
+entity_type: block_content
+bundle: progress_bar
+label: Percentage
+description: 'Enter a number between 0-100 to adjust the width of the progress bar.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 35
+default_value_callback: ''
+settings:
+  min: 0
+  max: 100
+  prefix: ''
+  suffix: ''
+field_type: integer

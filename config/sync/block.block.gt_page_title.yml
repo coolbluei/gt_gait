@@ -1,0 +1,20 @@
+uuid: 526f4d71-678a-4c47-b90f-a29bcac2af84
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gt
+_core:
+  default_config_hash: EhiENWehpB_uG-vtaBD2a0v1GpxBCEaO-UqVVCV9jfM
+id: gt_page_title
+theme: gt
+region: breadcrumbs
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

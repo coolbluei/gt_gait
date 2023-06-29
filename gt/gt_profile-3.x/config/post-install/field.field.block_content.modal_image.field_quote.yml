@@ -1,0 +1,21 @@
+uuid: fd42fa37-93f6-41b8-a58d-1df575f9d555
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.modal_image
+    - field.storage.block_content.field_quote
+_core:
+  default_config_hash: TFHdWMVoAaZ8nEq-6j2D1y1Ix7x-JVqB215lEKxA1kg
+id: block_content.modal_image.field_quote
+field_name: field_quote
+entity_type: block_content
+bundle: modal_image
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

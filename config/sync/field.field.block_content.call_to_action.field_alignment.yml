@@ -1,0 +1,25 @@
+uuid: 8a0c0cee-cefc-4c5d-bfba-d8d4a4502f58
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.call_to_action
+    - field.storage.block_content.field_alignment
+_core:
+  default_config_hash: Hkq6drmnMso-XjGUcgUX7xjKXb_opzgGYFpfDLBDxqs
+id: block_content.call_to_action.field_alignment
+field_name: field_alignment
+entity_type: block_content
+bundle: call_to_action
+label: 'Image alignment'
+description: 'Check to align image right.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: float-left
+  off_label: float-right
+field_type: boolean

@@ -1,0 +1,25 @@
+uuid: 63633d77-1840-4c1c-a70a-fc33cfc5baf0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hg_importer
+    - node.type.hg_news
+_core:
+  default_config_hash: gr1lnAzs3Y-53bM_KUSbwf1952DR82YgV98m4KRAMRs
+id: node.hg_news.field_hg_importer
+field_name: field_hg_importer
+entity_type: node
+bundle: hg_news
+label: 'Associated importer'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: 5bb27cfd-23b6-48b7-a0ce-0cefda07d47c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.spacer
+    - field.storage.block_content.field_size
+  module:
+    - options
+id: block_content.spacer.field_size
+field_name: field_size
+entity_type: block_content
+bundle: spacer
+label: Size
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: medium
+default_value_callback: ''
+settings: {  }
+field_type: list_string

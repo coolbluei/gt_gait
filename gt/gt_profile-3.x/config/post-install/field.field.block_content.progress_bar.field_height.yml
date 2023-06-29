@@ -1,0 +1,25 @@
+uuid: edb43d5e-f884-4d86-a937-9d235db0b4e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.progress_bar
+    - field.storage.block_content.field_height
+id: block_content.progress_bar.field_height
+field_name: field_height
+entity_type: block_content
+bundle: progress_bar
+label: Height
+description: 'Adjust the height of the progress bar reflected in pixel (minimum 30px). Default is set to 40px.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 40
+default_value_callback: ''
+settings:
+  min: 25
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

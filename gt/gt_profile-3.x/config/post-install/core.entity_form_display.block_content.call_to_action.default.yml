@@ -1,0 +1,86 @@
+uuid: 001f5257-5821-49d0-af7a-8cc2f27181c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.call_to_action
+    - field.field.block_content.call_to_action.body
+    - field.field.block_content.call_to_action.field_alignment
+    - field.field.block_content.call_to_action.field_image
+    - field.field.block_content.call_to_action.field_link
+    - field.field.block_content.call_to_action.field_style
+    - field.field.block_content.call_to_action.field_text_alignment
+    - field.field.block_content.call_to_action.field_video_url
+    - image.style.thumbnail
+  module:
+    - image
+    - link
+    - text
+    - video_embed_field
+_core:
+  default_config_hash: 0u47iKJIvdKIpkr4-DhcWqRud7Tzhd_csqDL8S9LDy8
+id: block_content.call_to_action.default
+targetEntityType: block_content
+bundle: call_to_action
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 6
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  field_alignment:
+    weight: 3
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_image:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_link:
+    weight: 7
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_style:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_text_alignment:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_video_url:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: video_embed_field_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

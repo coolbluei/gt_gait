@@ -1,0 +1,23 @@
+uuid: 09c7b141-5179-42ff-9a0c-d06a86e2e039
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.image_with_copy
+    - field.storage.block_content.field_text_alignment
+  module:
+    - options
+id: block_content.image_with_copy.field_text_alignment
+field_name: field_text_alignment
+entity_type: block_content
+bundle: image_with_copy
+label: 'Text alignment'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: text-left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,44 @@
+uuid: f8c2428c-45b9-4fff-afbd-07e44e6291a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.heading_title
+    - field.field.block_content.heading_title.body
+    - field.field.block_content.heading_title.field_heading_title
+  module:
+    - text
+_core:
+  default_config_hash: z30OcM16h5vXgQuxPlGwPLWk9kQMvBUoMp1oD8QWmHY
+id: block_content.heading_title.default
+targetEntityType: block_content
+bundle: heading_title
+mode: default
+content:
+  body:
+    weight: 28
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_heading_title:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

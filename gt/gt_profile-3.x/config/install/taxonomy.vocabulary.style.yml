@@ -1,0 +1,8 @@
+uuid: 2e877af5-c967-4c8a-866f-e9e36b472cff
+langcode: en
+status: true
+dependencies: {  }
+name: Style
+vid: style
+description: 'Style sets for element forms'
+weight: 0

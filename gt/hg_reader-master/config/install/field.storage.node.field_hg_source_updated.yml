@@ -1,0 +1,23 @@
+uuid: b4193a8a-fdbe-4aa4-aabe-13ec3caba348
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+  module:
+    - node
+_core:
+  default_config_hash: eJa8HcEavlN7SwrKDRFAO1PofVoQ3Cy4BQX-f1Mq2XM
+id: node.field_hg_source_updated
+field_name: field_hg_source_updated
+entity_type: node
+type: timestamp
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

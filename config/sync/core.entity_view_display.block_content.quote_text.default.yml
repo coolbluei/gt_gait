@@ -1,0 +1,20 @@
+uuid: 737cb385-f08f-4658-94c2-822e3ae9789e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.quote_text
+    - field.field.block_content.quote_text.field_quote
+id: block_content.quote_text.default
+targetEntityType: block_content
+bundle: quote_text
+mode: default
+content:
+  field_quote:
+    type: basic_string
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

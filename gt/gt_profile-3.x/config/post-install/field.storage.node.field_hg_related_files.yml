@@ -1,0 +1,28 @@
+uuid: 14e3baca-a152-43d7-b21f-2c8bec43899d
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+  module:
+    - file
+    - node
+_core:
+  default_config_hash: AAc5OklFPf2YQqeQYtB3k3G-j2YdeWI1gb8EzOFUYxE
+id: node.field_hg_related_files
+field_name: field_hg_related_files
+entity_type: node
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

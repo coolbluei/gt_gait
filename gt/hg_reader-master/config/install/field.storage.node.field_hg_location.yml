@@ -1,0 +1,26 @@
+uuid: 38dd4cf5-a828-4472-80c4-04477510a817
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - hg_reader
+  module:
+    - node
+_core:
+  default_config_hash: setWUAFUhABuRd3cQ-3lb_YME4heMfvVPFDBZ_ybDr4
+id: node.field_hg_location
+field_name: field_hg_location
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

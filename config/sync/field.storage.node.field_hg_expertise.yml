@@ -1,0 +1,25 @@
+uuid: 5b5dd92a-8bda-4d1c-aeff-f17c0c81424c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+  enforced:
+    module:
+      - hg_reader
+_core:
+  default_config_hash: RkrsNu62TKRF3elXqM97EzZNgtHsEHYYY_8T__JsC70
+id: node.field_hg_expertise
+field_name: field_hg_expertise
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

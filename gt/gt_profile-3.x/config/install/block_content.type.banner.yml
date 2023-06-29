@@ -1,0 +1,8 @@
+uuid: b8dbebf8-09a2-4520-9250-a97d490ac18a
+langcode: en
+status: true
+dependencies: {  }
+id: banner
+label: Banner
+revision: 1
+description: 'Hero image with text for use in the Full Width regions and/or with Layout Builder (restricted width).'

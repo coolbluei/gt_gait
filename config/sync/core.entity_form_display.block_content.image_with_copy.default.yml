@@ -1,0 +1,85 @@
+uuid: 0d5080d3-075d-45c6-9d1f-5124c2108c57
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.image_with_copy
+    - field.field.block_content.image_with_copy.body
+    - field.field.block_content.image_with_copy.field_image
+    - field.field.block_content.image_with_copy.field_image_style
+    - field.field.block_content.image_with_copy.field_link
+    - field.field.block_content.image_with_copy.field_style
+    - field.field.block_content.image_with_copy.field_text_alignment
+    - field.field.block_content.image_with_copy.field_video_url
+    - image.style.thumbnail
+  module:
+    - image
+    - link
+    - text
+    - video_embed_field
+_core:
+  default_config_hash: MfplrwIdNvS9gvMTiM_tX3lzk9O3X8BEw8DnpMlhN2w
+id: block_content.image_with_copy.default
+targetEntityType: block_content
+bundle: image_with_copy
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 6
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_image_style:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_link:
+    type: link_default
+    weight: 7
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_style:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_text_alignment:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_video_url:
+    type: video_embed_field_textfield
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

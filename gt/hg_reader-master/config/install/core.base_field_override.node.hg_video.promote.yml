@@ -1,0 +1,24 @@
+uuid: badcb184-8d9d-44eb-836d-aabfdab2a3d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.hg_video
+_core:
+  default_config_hash: 3cyzukR_zyvSxthtq7Lt7WaigXpI0DY-QUP3ADW41Co
+id: node.hg_video.promote
+field_name: promote
+entity_type: node
+bundle: hg_video
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

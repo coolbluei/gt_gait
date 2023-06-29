@@ -1,0 +1,31 @@
+uuid: d1d6f3b4-b44d-45ba-8835-5f3ebc789925
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.quote_text
+    - field.field.block_content.quote_text.field_quote
+_core:
+  default_config_hash: Rw42bn6jOn5WnOsVsRJIxtKIAYGJLQqK61FfNLvNYes
+id: block_content.quote_text.default
+targetEntityType: block_content
+bundle: quote_text
+mode: default
+content:
+  field_quote:
+    weight: 27
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

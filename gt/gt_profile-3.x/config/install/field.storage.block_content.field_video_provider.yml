@@ -1,0 +1,20 @@
+uuid: 7cb90213-6ebc-40c8-b535-c96ef3cbf082
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - taxonomy
+id: block_content.field_video_provider
+field_name: field_video_provider
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

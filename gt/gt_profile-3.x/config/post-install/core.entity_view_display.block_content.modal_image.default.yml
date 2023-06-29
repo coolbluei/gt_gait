@@ -1,0 +1,51 @@
+uuid: 5747b17b-81d0-4671-a2ba-fcd8ca65fe8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.modal_image
+    - field.field.block_content.modal_image.field_image
+    - field.field.block_content.modal_image.field_quote
+    - field.field.block_content.modal_image.field_video_url
+    - image.style.large
+  module:
+    - field_formatter_class
+    - image
+    - video_embed_field
+id: block_content.modal_image.default
+targetEntityType: block_content
+bundle: modal_image
+mode: default
+content:
+  field_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+  field_quote:
+    type: basic_string
+    weight: 2
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_video_url:
+    weight: 1
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: false
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    type: video_embed_field_video
+    region: content
+hidden: {  }

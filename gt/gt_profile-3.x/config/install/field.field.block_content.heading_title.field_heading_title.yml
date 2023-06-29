@@ -1,0 +1,21 @@
+uuid: 28c48d4f-2e70-486c-9ff1-22cbecae486b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.heading_title
+    - field.storage.block_content.field_heading_title
+_core:
+  default_config_hash: G_FYsdxJeOZUHJeb2epgIRjzaMqLhmcDnrc9nUYXMM8
+id: block_content.heading_title.field_heading_title
+field_name: field_heading_title
+entity_type: block_content
+bundle: heading_title
+label: Sub-title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

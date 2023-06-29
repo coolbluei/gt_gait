@@ -1,0 +1,10 @@
+uuid: fa284d1c-ebd7-460c-bc4f-14fa1a290f5b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: az1sgEysqzl2o5loiPlARuXu1mLR3FLHi-kf8rWWB4M
+id: call_to_action
+label: 'Call to Action'
+revision: 1
+description: 'Add an image (aligned left or right), copy, and link.'

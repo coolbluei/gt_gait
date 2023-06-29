@@ -1,0 +1,10 @@
+uuid: 3dd9b3c6-a9dc-4284-8642-94606e548a24
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sm6bsPgrVL6fH6rnd9kENf7ASvefYAxXn0HCdfj0EDw
+id: heading_title
+label: 'Heading Title'
+revision: 0
+description: 'Add a title heading.'

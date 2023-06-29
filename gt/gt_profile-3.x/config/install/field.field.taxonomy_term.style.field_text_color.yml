@@ -1,0 +1,33 @@
+uuid: b91b0281-c67a-4b28-a6ea-70c3fd6c0b3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_text_color
+    - taxonomy.vocabulary.gt_colors
+    - taxonomy.vocabulary.style
+  content:
+    - 'taxonomy_term:gt_colors:c65af1d7-fe14-4520-8cb4-f84c2e6d8ad8'
+id: taxonomy_term.style.field_text_color
+field_name: field_text_color
+entity_type: taxonomy_term
+bundle: style
+label: 'Text color'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: c65af1d7-fe14-4520-8cb4-f84c2e6d8ad8
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      gt_colors: gt_colors
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

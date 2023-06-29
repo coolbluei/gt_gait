@@ -1,0 +1,25 @@
+uuid: f12075b1-eb59-4025-9e40-916fa5261e85
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.hg_profile
+  module:
+    - text
+_core:
+  default_config_hash: t8OVCNiLXAr9exhWHiIQexTDfHpAXxMLZ70AwU8esgc
+id: node.hg_profile.body
+field_name: body
+entity_type: node
+bundle: hg_profile
+label: Biography
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,10 @@
+uuid: 012146a6-7d28-4a28-b3d5-936e574f0a9d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: NJPpsqRzGWVhKWV-zuSMDJMRT36BgbCqf6LetdC_qIQ
+id: image_with_copy
+label: 'Image with copy'
+revision: 1
+description: 'Add an image with copy and link.'

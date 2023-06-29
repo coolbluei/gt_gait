@@ -1,0 +1,12 @@
+uuid: ba5fec40-787d-4ee8-b3d4-62383b65254c
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: 7BayPNkq2otW29qoV_d-_ynCOffFRgP-CmArrAMjY74
+id: taxonomy_term.token
+label: Token
+targetEntityType: taxonomy_term
+cache: true

@@ -1,0 +1,38 @@
+uuid: 893c63f4-cad0-4765-a026-bfdb50068cde
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.hg_external_news.body
+    - field.field.node.hg_external_news.field_hg_article_url
+    - field.field.node.hg_external_news.field_hg_dateline
+    - field.field.node.hg_external_news.field_hg_publication
+    - field.field.node.hg_external_news.field_hg_related_files
+    - node.type.hg_external_news
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 6a1y78_W0xp8Ot5sbXf3DfkNEviOiEsRT82UqlC658I
+id: node.hg_external_news.teaser
+targetEntityType: node
+bundle: hg_external_news
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_hg_article_url: true
+  field_hg_dateline: true
+  field_hg_publication: true
+  field_hg_related_files: true

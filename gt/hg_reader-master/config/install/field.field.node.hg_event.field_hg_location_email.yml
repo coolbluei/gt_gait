@@ -1,0 +1,21 @@
+uuid: 57c89719-945e-4fd7-bccf-2d6d5ba641de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hg_location_email
+    - node.type.hg_event
+_core:
+  default_config_hash: i9HCajZeJnWLtVwDTtQ-6c-pJc9HpdlR2orolNncUrs
+id: node.hg_event.field_hg_location_email
+field_name: field_hg_location_email
+entity_type: node
+bundle: hg_event
+label: 'Location email'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

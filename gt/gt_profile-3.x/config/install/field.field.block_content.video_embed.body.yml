@@ -1,0 +1,25 @@
+uuid: a8dc6711-c020-40c4-8d28-22d5f49ad31b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.video_embed
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: wMUdeZCEZGB6UxuVredmLao2akRzFfuk6tPKZLyjJVQ
+id: block_content.video_embed.body
+field_name: body
+entity_type: block_content
+bundle: video_embed
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

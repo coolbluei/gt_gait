@@ -1,0 +1,33 @@
+uuid: f361b9e9-66a3-44d4-9a9c-39a9552d13cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_button_color
+    - taxonomy.vocabulary.gt_colors
+    - taxonomy.vocabulary.style
+  content:
+    - 'taxonomy_term:gt_colors:dfe591eb-aa32-43e1-94c1-010e60f2b5be'
+id: taxonomy_term.style.field_button_color
+field_name: field_button_color
+entity_type: taxonomy_term
+bundle: style
+label: 'Button color'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: dfe591eb-aa32-43e1-94c1-010e60f2b5be
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      gt_colors: gt_colors
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
